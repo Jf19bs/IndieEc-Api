@@ -1,6 +1,6 @@
 const Artist = require('../models/Artist').Artist
 
-const EntitySchema =  require('typeorm').EntitySchema
+const EntitySchema = require('typeorm').EntitySchema
 
 module.exports = new EntitySchema( {
     name:"Artist",
