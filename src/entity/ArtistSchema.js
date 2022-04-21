@@ -11,16 +11,30 @@ module.exports = new EntitySchema( {
             type:'int',
             generated:true
         },
-        user_name:{
+        name:{
             type:"varchar",
         },
-        song_date:{
-            type:"date",
+        last_name:{
+            type:"varchar",
         },
         
-        password:{
+        artist_name:{
+            type:"varchar",
+        },
+
+        gender_music:{
+            type:"varchar",
+        },
+
+        birth_place:{
+            type:"varchar",
+        },
+
+        description:{
             type:"varchar",
         }
+
+
 
     }
 })
